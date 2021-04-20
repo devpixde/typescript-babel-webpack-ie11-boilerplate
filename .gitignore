@@ -1,3 +1,12 @@
+.DS_Store
+
+.idea/
+
+
+
+# exclude any  src js, we only want ts in repository.
+/src/**/*.js
+
 # Logs
 logs
 *.log

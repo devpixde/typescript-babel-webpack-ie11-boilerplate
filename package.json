@@ -1,0 +1,39 @@
+{
+  "name": "typescript-babel-webpack-ie11-boilerplate",
+  "version": "1.0.0",
+  "description": "Just some boilerplate to get started",
+  "main": "main.js",
+  "scripts": {
+    "bundle:watch": "webpack --watch",
+    "compile:watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devpixde/typescript-babel-webpack-ie11-boilerplate.git"
+  },
+  "keywords": [
+    "Typescript",
+    "Babel",
+    "Webpack",
+    "IE11",
+    "Boilerplate"
+  ],
+  "author": "Ingo Klemm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devpixde/typescript-babel-webpack-ie11-boilerplate/issues"
+  },
+  "homepage": "https://github.com/devpixde/typescript-babel-webpack-ie11-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/register": "^7.13.14",
+    "babel-loader": "^8.2.2",
+    "typescript": "^4.2.4",
+    "webpack": "^5.34.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
